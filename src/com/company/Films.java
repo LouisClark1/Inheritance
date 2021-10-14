@@ -1,6 +1,6 @@
 package com.company;
 
-public class Films extends DVDs{
+public class Films extends DVDs implements isAvalible{
 
     /////////////////////////////Attributes////////////////////////
 
@@ -13,10 +13,15 @@ public class Films extends DVDs{
     }
 
     public Films(String name, double itemSize) {
-        super(name);
-        this.itemSize = itemSize;
+        super(name, itemSize);
+        //this.itemSize = itemSize;
     }
 
     //////////////////////////////Methods//////////////////////////
+
+    @Override
+    public void checkAvalibility() {
+        System.out.println("You can take this out of the library");
+    }
 
 }

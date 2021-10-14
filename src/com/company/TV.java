@@ -12,8 +12,8 @@ public class TV extends DVDs{
         super(name);
     }
     public TV(String name, double itemSize) {
-        super(name);
-        this.itemSize = itemSize;
+        super(name,itemSize);
+        //this.itemSize = itemSize;
     }
 
 

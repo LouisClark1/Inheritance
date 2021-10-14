@@ -1,6 +1,6 @@
 package com.company;
 
-public class Digital extends Audiobook{
+public class Digital extends Audiobook implements isAvalible{
 
     /////////////////////////////Attributes////////////////////////
     private double dataSize;
@@ -28,5 +28,9 @@ public class Digital extends Audiobook{
         this.dataSize = dataSize;
     }
 
+    @Override
+    public void checkAvalibility() {
+        System.out.println("You can take this out of the library");
+    }
 
 }
