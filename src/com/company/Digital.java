@@ -6,7 +6,7 @@ public class Digital extends Audiobook implements isAvalible{
     private double dataSize;
     /////////////////////////////Constructors//////////////////////
     public Digital(){
-        this("Default digital audiobook title",000);
+        this("Default digital audiobook title",0.0);
     }
     public Digital(String name) {
         super(name);

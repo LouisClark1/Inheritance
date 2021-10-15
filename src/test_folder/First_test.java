@@ -17,8 +17,9 @@ public class First_test {
 
     @Test
     public void test_for_digital_audiobook(){
+        double tempSize = 1.0;
         Digital testDigitalAudiobook = new Digital();
-        assertEquals("This is the digital audiobook test message",0.0,testDigitalAudiobook.getDataSize());
+        assertEquals("This is the digital audiobook test message",tempSize,testDigitalAudiobook.getDataSize(),0.1);
 
     }
 }

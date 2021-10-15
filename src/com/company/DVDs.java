@@ -4,7 +4,7 @@ package com.company;
 public abstract class DVDs extends Library_item{
 
     /////////////////////////////Attributes////////////////////////
-    protected double itemSize;
+    private double itemSize;
     /////////////////////////////Constructors//////////////////////
 
 
